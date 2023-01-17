@@ -1,0 +1,106 @@
+#idea {
+    font-size: 10px;
+    text-align: center;
+    color: rgb(129, 129, 129);
+}
+
+
+h1 {
+    color: #4e47b8;
+    text-align:center;
+    font-weight: 100;
+}
+
+#nombre{
+    color: #000000;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#subs {
+    text-decoration: underline;
+
+}
+
+.foto {
+    align-items: center;
+    box-sizing: border-box;
+    width: 50px; /* establece el ancho del contenedor */
+    height: 50px; /* establece la altura del contenedor */
+    overflow: hidden; /* oculta cualquier contenido que exceda las dimensiones del contenedor */
+    border: 1px solid rgb(105, 41, 38);
+    display: block;
+    margin: 0 auto;  
+}
+
+.submitbtn {
+    align-items: right;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: #ecffcd;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: rgb(2, 0, 0);
+    text-decoration: solid;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+
+form {
+    padding: 20px;
+}
+
+label {
+    margin: 15px 0px; clear: both; display: block;
+}
+
+input {
+    padding: 4px; 
+    border: solid 1px #5f737e;
+}
+
+::placeholder, option, value {
+    color: #5f737e; 
+    font-weight: bold;
+}
+
+*:focus {
+    border-color: #5f737e; 
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    padding: 10px 20px; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    background-color: #5f737e; 
+    border: solid 1px #ededed;
+    align-items: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #5f737e;
+}
+
+ 
